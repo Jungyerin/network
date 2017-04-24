@@ -29,7 +29,7 @@ public class TimeServer {
 				String message = new String(receivePacket.getData(), 0, receivePacket.getLength(), "utf-8");
 				// 0부터 패킷의 사이즈 만큼 데이터를 메세지에 저장
 
-				if(message.equals(""))
+				if(message.equals("\"\""))
 				{
 					SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss a");
 					message = format.format(new Date());

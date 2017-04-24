@@ -41,7 +41,7 @@ public class TimeClient {
 				DatagramPacket receivePacket = new DatagramPacket(new byte[1024], 1024);
 				socket.receive(receivePacket); // blocking
 
-				if ("".equals(message) == true) {
+				if ("\"\"".equals(message) == true) {
 					// 5. 화면출력
 					SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss a");
 					message = format.format(new Date());
