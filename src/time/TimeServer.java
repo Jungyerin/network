@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class TimeServer {
 	
-	private static final int PORT = 6060; 
+	private static final int PORT = 7070; 
 
 	public static void main(String[] args) {
 		DatagramSocket datagramSocket = null;

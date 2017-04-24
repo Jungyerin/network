@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class TimeClient {
 
 	private static final String SERVER_IP = "192.168.1.32";
-	private static final int SERVER_PORT = 6060;
+	private static final int SERVER_PORT = 7070;
 
 	public static void main(String[] args) {
 		DatagramSocket socket = null;
